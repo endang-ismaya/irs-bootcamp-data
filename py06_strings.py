@@ -26,5 +26,12 @@ cab_gsm = "WXBP69"
 # print(name.upper())
 
 # replace
-name = "joni joshua joni joni joni"
-print(name.replace("joni", "jono", count=1))
+# name = "joni joshua joni joni joni"
+# print(name.replace("joni", "jono", count=1))
+
+# len() function with strings
+name: str = "joni joshua"
+name_len = len(name)
+# print(name_len)
+# print(type(name_len))
+print(name_len.upper())

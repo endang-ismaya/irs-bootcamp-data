@@ -17,3 +17,9 @@
    - \>: lebih besar
    - \>=: lebih besar sama dengan
 
+## Logika
+   - and
+   - or
+   - not
+   
+

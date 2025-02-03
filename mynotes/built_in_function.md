@@ -11,3 +11,6 @@
 
 ## 4. input()
    Digunakan untuk mendapatkan input dari user (console/terminal)
+
+## 5. len()
+   Digunakan untuk menghitung panjang dari object yg dimasukkan. Object harus sequence
