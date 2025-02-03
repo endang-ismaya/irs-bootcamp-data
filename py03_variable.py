@@ -10,7 +10,7 @@ Peraturan penamaan variable
 - huruf selanjutnya letter, number, underscore
 - huruf capital boleh digunakan untuk constant value
 - nama variable harus mencerminkan value-nya
-- tidak boleh menggunakan key di python atau builtin function
+- tidak boleh menggunakan reserved keywords di python atau builtin function
 """
 
 first_name = "Joni"
