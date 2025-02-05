@@ -17,7 +17,8 @@ if not nomor_hp.isdigit():
 else: # check jika nomor hp adalah digit
     panjang_nomor_hp = len(nomor_hp)
     if panjang_nomor_hp >= 11 and panjang_nomor_hp <= 14:
-        if nomor_hp[0] == "0":
+        # if nomor_hp[0] == "0":
+        if nomor_hp.startswith("0"):
             nomor_hp_validated = nomor_hp.replace("0", "+62", count=1)
             print(f"Nomor HP yang sudah di validasi: {nomor_hp_validated}")
         else:
