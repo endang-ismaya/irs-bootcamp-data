@@ -14,3 +14,6 @@
 
 ## 5. len()
    Digunakan untuk menghitung panjang dari object yg dimasukkan. Object harus sequence
+
+## 6. enumerate()
+   Untuk memuncul index dari object sequence
