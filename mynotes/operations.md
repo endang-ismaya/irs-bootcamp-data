@@ -11,6 +11,8 @@
 
 ## Assignments
    - \= : Menetapkan nilai
+   - +=: Menambahkan nilai
+   - -=: Mengurangkan nilai
 
 ## Comparison
    - ==: Sama dengan
@@ -21,5 +23,8 @@
    - and
    - or
    - not
-   
+
+## Membership (Keanggotaan)
+   - in: Mengecek apakah si A merupakan anggota dari si B (sequence)
+   - not in: Mengecek apakah si A bukan merupakan anggota dari si B (sequence) 
 
