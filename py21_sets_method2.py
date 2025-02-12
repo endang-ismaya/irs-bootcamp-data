@@ -45,7 +45,7 @@ print(irs_team.issuperset(tr_team))
 
 # irisan / intersection
 print("*" * 40)
-rogers_and_voda_skills = rogers_team.intersection(voda_team)
+rogers_and_voda_skills = rogers_team.intersection(voda_team).intersection(att_team)
 print(f"rogers_and_voda_skills: {rogers_and_voda_skills}")
 
 # difference
@@ -55,6 +55,9 @@ print(f"rogers only skill: {rogers_only}")
 
 voda_only = voda_team.difference(rogers_team)
 print(f"voda only skill: {voda_only}")
+
+no_att_voda_rogers = att_team.difference(rogers_team).difference(voda_team)
+print(f"att but no voda & rogers: {no_att_voda_rogers}")
 
 # symmetric difference
 print("*" * 40)
