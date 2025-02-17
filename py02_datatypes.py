@@ -12,8 +12,16 @@ Common Data Type di Python:
   desc: Kebenaran atau Ketidak-benaran
   symbol: bool
 4. String
-   desc: text
-   symbol: str
+    desc: text
+    symbol: str
+5. List
+    desc: array 
+    symbol: list
+6. Set
+    desc: set()
+    symbol: set
+7. Dictionary*
+8. Tuple*
 """
 
 # print("Hello Donat", type("Hello Donat"))

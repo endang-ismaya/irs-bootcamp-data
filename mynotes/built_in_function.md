@@ -17,3 +17,6 @@
 
 ## 6. enumerate()
    Untuk memuncul index dari object sequence
+
+## 7. range()
+   Untuk membuat list yang berisikan arithmetic progression
