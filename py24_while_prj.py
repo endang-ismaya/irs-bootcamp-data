@@ -8,6 +8,8 @@ att_team_str = ",".join(att_team)
 sw_team_str = ",".join(sw_team)
 tr_team_str = ",".join(tr_team)
 
+show_title()
+
 while True:
     choice = show_menu()
 

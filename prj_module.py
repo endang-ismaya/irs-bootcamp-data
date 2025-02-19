@@ -1,7 +1,7 @@
 def show_title():
-    print("*" * 40)
-    print("*" * 6, "IRS MEMBER SKILL DETECTION", "*" * 6)
-    print("*" * 40)
+    print(' ', "*" * 40)
+    print("*" * 7, "IRS MEMBER SKILL DETECTION", "*" * 8)
+    print(' ', "*" * 40)
 
 
 def show_menu() -> str:
@@ -13,6 +13,6 @@ def show_menu() -> str:
 
 def goodbye() -> None:
     print("\n")
-    print("*" * 55)
-    print("*" * 5, "Terima kasih telah menggunakan program Kami.", "*" * 5)
-    print("*" * 55)
+    print('', "*" * 55)
+    print("*" * 5, "Terima kasih telah menggunakan program Kami.", "*" * 6)
+    print('', "*" * 55)
