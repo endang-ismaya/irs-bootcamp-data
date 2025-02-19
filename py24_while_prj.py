@@ -1,5 +1,12 @@
 from prj_module import show_menu, show_title, goodbye
-from prj_database import att_team, rogers_team, sw_team, tr_team, voda_team
+from prj_database import (
+    att_team,
+    rogers_team,
+    sw_team,
+    tr_team,
+    voda_team,
+    dt_eng_skills,
+)
 
 # convert list into string
 rogers_team_str = ",".join(rogers_team)
@@ -18,9 +25,11 @@ while True:
         break
 
     if choice.casefold() == "1":
-        name = input("Masukan nama engineer yang ingin diketahui skillnya (x untuk kembali ke menu): ")
+        name = input(
+            "Masukan nama engineer yang ingin diketahui skillnya (x untuk kembali ke menu): "
+        )
 
-        skills  = []
+        skills = []
         # exit
         if name.casefold() == "X".casefold():
             print("\n\n\n")
@@ -40,24 +49,18 @@ while True:
         # check tr
         if name.casefold() in tr_team_str.casefold():
             skills.append("Bahasa Turki")
-        
+
         if skills:
-            skills_join = ', '.join(skills)
+            skills_join = ", ".join(skills)
             print(f"{name.capitalize()} memiliki {len(skills)} skills: {skills_join}")
             print("\n")
         else:
             print(f"{name} tidak dikenal, mohon masukkan nama lain.")
             print("\n")
     elif choice.casefold() == "2".casefold():
-        print("Maaf program masih belum ready :D ")
-        print("\n")
+        skill = input("Masukkan skills-nya: ")
+        for eng, skills in dt_eng_skills.items():
+            skill_str = ",".join(skills)
 
-
-
-
-
-
-
-
-
-
+            if skill.casefold() == skill_str.casefold():
+                print(eng)
