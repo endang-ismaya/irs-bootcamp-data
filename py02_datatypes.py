@@ -15,12 +15,14 @@ Common Data Type di Python:
     desc: text
     symbol: str
 5. List
-    desc: array 
+    desc: array
     symbol: list
 6. Set
     desc: set()
     symbol: set
-7. Dictionary*
+7. Dictionary
+    desc: dict()
+    symbol: dict
 8. Tuple*
 """
 
@@ -29,11 +31,11 @@ Common Data Type di Python:
 # print("""Hello Joni""", type("""Hello Joni"""))
 # print('''Hello Jonas''', type('''Hello Jonas'''))
 # print("Don't Move")
-print('Selamat Pagi dan \nSelamat Siang')
+print("Selamat Pagi dan \nSelamat Siang")
 # print("The teacher said \"Don't you think python is hard!!\"")
 # print('The teacher said "Don\'\t you think python is hard!!"')
 
-print("---\"-'--\"--")
+print('---"-\'--"--')
 # escape character "\"
 # print(True, type(True))
 # print(False, type(False))
