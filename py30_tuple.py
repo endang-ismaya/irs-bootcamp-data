@@ -34,15 +34,17 @@ irs_team = [
     ("taufik", "rogers", 1),
     ("roji", "voda", 1),
     ("jono", "voda", 0),
+    ("jena", "voda", 0),
 ]
 
 # sequence unpacking
 # list, tuple
 
-for team in irs_team:
-    name, team_in, status = team
+for data in irs_team:
+    name, team_in, status = data
 
     # Ternary operator
+    # status -> 1 atau [] atau 0
     status_in = "Available" if status else "Not Available"
     print(f"{name.title()} ada di team {team_in.upper()} statusnya {status_in}")
 

@@ -23,7 +23,9 @@ Common Data Type di Python:
 7. Dictionary
     desc: dict()
     symbol: dict
-8. Tuple*
+8. Tuple
+    desc = tuple()
+    symbol: tuple
 """
 
 # print("Hello Donat", type("Hello Donat"))
