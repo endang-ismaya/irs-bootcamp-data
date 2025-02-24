@@ -45,3 +45,30 @@ for team in irs_team:
     # Ternary operator
     status_in = "Available" if status else "Not Available"
     print(f"{name.title()} ada di team {team_in.upper()} statusnya {status_in}")
+
+
+# casting
+# ke list
+l_rogers = list(rogers)
+print(l_rogers)
+
+# ke set
+s_rogers = set(rogers)
+print(s_rogers)
+
+# ke dict
+irs_team = [
+    ("alfian", "rogers"),
+    ("fikky", "voda"),
+    ("faisal", "software"),
+    ("taufik", "rogers"),
+    ("taufik", "voda"),
+    ("roji", "voda"),
+    ("jono", "voda"),
+]
+d_irs_team = dict(irs_team)
+print(d_irs_team)
+
+#
+arsi = dict([("arsi", "voda")])
+print(arsi)
