@@ -58,13 +58,13 @@ print(s_rogers)
 
 # ke dict
 irs_team = [
-    ("alfian", "rogers"),
-    ("fikky", "voda"),
-    ("faisal", "software"),
-    ("taufik", "rogers"),
-    ("taufik", "voda"),
-    ("roji", "voda"),
-    ("jono", "voda"),
+    ("alfian", ["rogers", "voda"]),
+    ("fikky", ["voda"]),
+    ("faisal", ["software"]),
+    ("taufik", ["rogers"]),
+    ("taufik", ["voda"]),
+    ("roji", ["voda"]),
+    ("jono", ["voda"]),
 ]
 d_irs_team = dict(irs_team)
 print(d_irs_team)
